@@ -1,13 +1,14 @@
 import React from "react";
 import { motion } from "framer-motion";
 import omnifood from "../assets/images/omnifood.png";
-import eatsplit from "../assets/images/eatSplit.png";
-import cryptoDashBoard from "../assets/images/cryptodashboard.png";
+import eatSplit from "../assets/images/eatSplit.png";
+import cryptoDashBoard from "../assets/images/cryptoDashBoard.png";
 import freelanceDashBoard from "../assets/images/freelanceDashBoard.png";
 import agricon from "../assets/images/agricon.png";
-import adviceGen from "../assets/images/advicegen.png";
+import adviceGen from "../assets/images/adviceGen.png";
 import conferenceSpeaker from "../assets/images/conferenceSpeaker.png";
 import recentPortofolio from "../assets/images/mylatestPortfolio.png";
+
 import ProjectCards from "../components/ProjectCards";
 
 // Animation variants
@@ -29,7 +30,7 @@ export default function Projects() {
     },
     {
       title: "Eat-N-Split",
-      image: eatsplit,
+      image: eatSplit,
       description:
         "A bill-splitting web app that helps friends divide costs easily. Built with React and Tailwind for speed and simplicity.",
       techStack: ["React", "TailwindCSS", "JavaScript"],
