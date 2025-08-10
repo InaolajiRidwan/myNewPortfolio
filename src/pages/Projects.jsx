@@ -1,17 +1,18 @@
+// src/pages/Projects.jsx
 import React from "react";
 import { motion } from "framer-motion";
-import omnifood from "../assets/images/omnifood.png";
-import eatSplit from "../assets/images/eatSplit.png";
-import cryptoDashBoard from "../assets/images/cryptoDashBoard.png";
-import freelanceDashBoard from "../assets/images/freelanceDashBoard.png";
-import agricon from "../assets/images/agricon.png";
-import adviceGen from "../assets/images/adviceGen.png";
-import conferenceSpeaker from "../assets/images/conferenceSpeaker.png";
-import recentPortofolio from "../assets/images/mylatestPortfolio.png";
+
+import omnifood from "../assets/omnifood.png";
+import eatSplit from "../assets/eatSplit.png";
+import cryptoDashBoard from "../assets/cryptoDashBoard.png";
+import freelanceDashBoard from "../assets/freelanceDashBoard.png";
+import agricon from "../assets/agricon.png";
+import adviceGen from "../assets/adviceGen.png";
+import conferenceSpeaker from "../assets/conferenceSpeaker.png";
+import recentPortofolio from "../assets/mylatestPortfolio.png";
 
 import ProjectCards from "../components/ProjectCards";
 
-// Animation variants
 const cardVariants = {
   hidden: { opacity: 0, y: 40 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
@@ -86,7 +87,7 @@ export default function Projects() {
       title: "Portfolio",
       image: recentPortofolio,
       description:
-        "A sleek, responsive landing page for a conference speaker, featuring event details, biography, and contact links.",
+        "A sleek, responsive portfolio landing page featuring event details, biography, and contact links.",
       techStack: ["React", "TailwindCSS", "Vite", "Motion"],
       github: "https://github.com/InaolajiRidwan/myNewPortfolio",
       live: "https://inaolajiadewaleridwan.vercel.app/",
@@ -122,7 +123,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {projects.map((project, index) => (
           <motion.div
-            key={index}
+            key={project.title} // better unique key
             variants={cardVariants}
             initial="hidden"
             whileInView="visible"
