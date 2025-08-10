@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
-@theme  {
+@theme {
   /* --main-color: #4f46e5; Example: Indigo-600 */
   --custom-padding: 1.5rem;
   --color-text-color: #fb923c; /* This matches text-orange-400 */
   --color-text-hover: #f97316;
+}
+
+html {
+  scroll-behavior: smooth;
 }
