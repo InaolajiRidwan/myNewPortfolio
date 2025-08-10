@@ -4,12 +4,12 @@ import { motion } from "framer-motion";
 
 import omnifood from "../assets/omnifood.png";
 import eatSplit from "../assets/eatSplit.png";
-import cryptoDashBoard from "../assets/cryptoDashBoard.png";
-import freelanceDashBoard from "../assets/freelanceDashBoard.png";
+import cryptodashboard from "../assets/cryptodashboard.png";
+import freelancedashboard from "../assets/freelancedashboard.png";
 import agricon from "../assets/agricon.png";
-import adviceGen from "../assets/adviceGen.png";
-import conferenceSpeaker from "../assets/conferenceSpeaker.png";
-import recentPortofolio from "../assets/mylatestPortfolio.png";
+import advicegen from "../assets/advicegen.png";
+import conferencespeaker from "../assets/conferencespeaker.png";
+import recentportofolio from "../assets/mylatestPortfolio.png";
 
 import ProjectCards from "../components/ProjectCards";
 
@@ -40,7 +40,7 @@ export default function Projects() {
     },
     {
       title: "Crypto Dashboard",
-      image: cryptoDashBoard,
+      image: cryptodashboard,
       description:
         "An interactive cryptocurrency tracking dashboard featuring live market data, charts, and portfolio insights.",
       techStack: ["React", "CSS", "JavaScript", "Chart.js", "API"],
@@ -49,7 +49,7 @@ export default function Projects() {
     },
     {
       title: "Freelance Dashboard",
-      image: freelanceDashBoard,
+      image: freelancedashboard,
       description:
         "A personal freelance dashboard showcasing client projects, statistics, and real-time analytics.",
       techStack: ["React", "CSS", "JavaScript", "Chart.js", "API"],
@@ -67,7 +67,7 @@ export default function Projects() {
     },
     {
       title: "Advice Generator",
-      image: adviceGen,
+      image: advicegen,
       description:
         "A fun app that generates random pieces of advice using the Advice Slip API, styled with TailwindCSS.",
       techStack: ["HTML", "TailwindCSS", "JavaScript", "API"],
@@ -76,7 +76,7 @@ export default function Projects() {
     },
     {
       title: "Conference Speaker Landing Page",
-      image: conferenceSpeaker,
+      image: conferencespeaker,
       description:
         "A sleek, responsive landing page for a conference speaker, featuring event details, biography, and contact links.",
       techStack: ["React", "TailwindCSS", "JavaScript"],
@@ -85,7 +85,7 @@ export default function Projects() {
     },
     {
       title: "Portfolio",
-      image: recentPortofolio,
+      image: recentportofolio,
       description:
         "A sleek, responsive portfolio landing page featuring event details, biography, and contact links.",
       techStack: ["React", "TailwindCSS", "Vite", "Motion"],
