@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
-import omnifoodImg from "../../src/assets/images/omnifood.png";
+import omnifood from "../assets/images/omnifood.png";
 import eatsplit from "../assets/images/eatSplit.png";
-import cryptoDashBoard from "../../src/assets/images/cryptoDashBoard.png";
-import freelanceDashBoard from "../../src/assets/images/freelanceDashBoard.png";
-import agricon from "../../src/assets/images/agricon.png";
-import adviceGen from "../../src/assets/images/adviceGen.png";
-import conferenceSpeaker from "../../src/assets/images/conferenceSpeaker.png";
-import recentPortofolio from "../../src/assets/images/mylatestPortfolio.png";
+import cryptoDashBoard from "../assets/images/cryptodashboard.png";
+import freelanceDashBoard from "../assets/images/freelanceDashBoard.png";
+import agricon from "../assets/images/agricon.png";
+import adviceGen from "../assets/images/advicegen.png";
+import conferenceSpeaker from "../assets/images/conferenceSpeaker.png";
+import recentPortofolio from "../assets/images/mylatestPortfolio.png";
 import ProjectCards from "../components/ProjectCards";
 
 // Animation variants
@@ -20,7 +20,7 @@ export default function Projects() {
   const projects = [
     {
       title: "OmniFood",
-      image: omnifoodImg,
+      image: omnifood,
       description:
         "A modern, responsive food delivery website designed with HTML, CSS, and JavaScript. Fully optimized for performance, SEO, and accessibility.",
       techStack: ["HTML", "CSS", "JavaScript"],
