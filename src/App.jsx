@@ -27,12 +27,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />}>
+            <Route index element={<About />} />
             <Route path="about" index element={<About />} />
             <Route path="experience" element={<Experience />} />
             <Route path="education" element={<Education />} />
             <Route path="skills" element={<Skills />} />
           </Route>
-          
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
