@@ -28,9 +28,9 @@ export default function About() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 1 }}
       >
-        <p className="text-center lg:text-start">
+        <p className="text-center lg:text-start text-md">
           I'm{" "}
-          <span className="text-text-color font-semibold">
+          <span className="text-text-color font-semibold ">
             Inaolaji Ridwan
           </span>
           , a Frontend Software Engineer passionate about crafting interactive

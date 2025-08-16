@@ -28,7 +28,7 @@ export default function Experience() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2, duration: 1 }}
       >
-        <p className="text-center lg:text-start">
+        <p className="text-center lg:text-start text-md">
           I have gained hands-on experience working on diverse projects, both
           independently and in collaborative team settings. My background spans
           frontend development, product design, and video editing, giving me
