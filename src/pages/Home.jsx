@@ -8,7 +8,13 @@ import Typed from "typed.js";
 import myProfileImg from "../assets/myProfileImg.png";
 
 // React icons (socials)
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaTwitter,
+  FaInstagram,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 // Framer Motion for animations
 import { motion } from "framer-motion";
@@ -164,6 +170,15 @@ export default function Home() {
             >
               <FaInstagram size={24} />
             </a>
+
+            <a
+              href="https://wa.me/2347061366051"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-text-color hover:text-text-hover transition"
+            >
+              <FaWhatsapp  size={24} />
+            </a>
           </motion.div>
         </div>
       </div>
@@ -277,6 +292,14 @@ export default function Home() {
               >
                 <FaInstagram size={24} />
               </a>
+               <a
+              href="https://wa.me/2347061366051"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-text-color hover:text-text-hover transition"
+            >
+              <FaWhatsapp  size={24} />
+            </a>
             </motion.div>
           </div>
         </div>
@@ -286,15 +309,17 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
-            whileHover={{scale: 1.05}}
+            whileHover={{ scale: 1.05 }}
             transition={{ delay: 0.6, duration: 5 }}
             className="border-4 border-text-color rounded-lg overflow-hidden"
           >
-            <img src={myProfileImg} alt="Profile" className="w-full h-full object-cover hover:grayscale cursor-pointer" />
+            <img
+              src={myProfileImg}
+              alt="Profile"
+              className="w-full h-full object-cover hover:grayscale cursor-pointer"
+            />
           </motion.div>
         </div>
-
-       
       </div>
 
       {/* Optional: Large screen floating sidebar nav */}

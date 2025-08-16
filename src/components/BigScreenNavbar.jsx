@@ -18,7 +18,7 @@ export default function BigScreenNavbar() {
   // Define navigation items with route path, icon, and label
   const navItems = [
     { to: "/", icon: <BiHomeAlt size={28} />, label: "Home" },
-    { to: "/about", icon: <FaUser size={28} />, label: "About" },
+    { to: "/resume", icon: <FaUser size={28} />, label: "Resume" },
     { to: "/projects", icon: <FaFolderOpen size={28} />, label: "Projects" },
     { to: "/contact", icon: <HiOutlineMail size={28} />, label: "Contact" },
   ];

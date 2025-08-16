@@ -2,11 +2,14 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Skills from "./pages/Skills";
-import About from "./pages/About";
-import { Routes, Route, } from "react-router-dom";
+import About from "./components/resumeComponents/About";
+import { Routes, Route } from "react-router-dom";
 import StarsBackground from "./components/StarsBackground"; // 👈 import
 import BigScreenNavbar from "./components/BigScreenNavbar";
+import Resume from "./pages/Resume";
+import Experience from "./components/resumeComponents/Experience";
+import Education from "./components/resumeComponents/Education";
+import Skills from "./components/resumeComponents/Skills";
 
 function App() {
   return (
@@ -23,15 +26,18 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/resume" element={<Resume />}>
+            <Route path="about" index element={<About />} />
+            <Route path="experience" element={<Experience />} />
+            <Route path="education" element={<Education />} />
+            <Route path="skills" element={<Skills />} />
+          </Route>
+          
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
     </div>
   );
 }
-
-
-
 
 export default App;

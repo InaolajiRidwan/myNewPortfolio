@@ -85,7 +85,7 @@ export default function Navbar() {
             </motion.div>
           </Link>
 
-          <Link onClick={toggleMenu} to="/about" className="hover:text-gray-300">
+          <Link onClick={toggleMenu} to="/resume" className="hover:text-gray-300">
             <motion.div
               initial={{ x: 500 }}
               animate={{ x: 0 }}
@@ -95,7 +95,7 @@ export default function Navbar() {
               className="flex items-center gap-2"
             >
               <FaUser  size={15} />
-              <span>About</span>
+              <span>Resume</span>
             </motion.div>
           </Link>
 
