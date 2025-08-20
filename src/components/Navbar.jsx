@@ -6,6 +6,7 @@ import { BiHomeAlt } from "react-icons/bi";
 import { FaFolderOpen, FaWrench } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaUser } from "react-icons/fa";
+import { AiOutlineFileText } from "react-icons/ai";
 
 
 export default function Navbar() {
@@ -94,7 +95,7 @@ export default function Navbar() {
               transition={{ delay: 0.2, duration: 0.5, ease: "easeOut" }}
               className="flex items-center gap-2"
             >
-              <FaUser  size={15} />
+              <AiOutlineFileText  size={15} />
               <span>Resume</span>
             </motion.div>
           </Link>

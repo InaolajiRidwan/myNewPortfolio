@@ -27,11 +27,19 @@ import BigScreenNavbar from "../components/BigScreenNavbar";
 
 export default function Home() {
   // Ref for typed.js span element
-  const typedRef = useRef(null);
+  const desktopTypedRef = useRef(null);
+  const mobileTypedRef = useRef(null);
 
   // Initialize the typing effect on mount
   useEffect(() => {
-    const typed = new Typed(typedRef.current, {
+    const typedDesktop = new Typed(desktopTypedRef.current, {
+      strings: ["Inaolaji Ridwan."],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true,
+    });
+
+    const typedMobile = new Typed(mobileTypedRef.current, {
       strings: ["Inaolaji Ridwan."],
       typeSpeed: 100,
       backSpeed: 50,
@@ -40,7 +48,8 @@ export default function Home() {
 
     // Cleanup on component unmount
     return () => {
-      typed.destroy();
+      typedDesktop.destroy();
+      typedMobile.destroy();
     };
   }, []);
 
@@ -60,7 +69,7 @@ export default function Home() {
             <h1>Hi there 👋, I'm</h1>
             <span
               className="typer"
-              ref={typedRef}
+              ref={mobileTypedRef}
               style={{ color: "var(--color-text-color)" }}
             ></span>
           </motion.div>
@@ -177,7 +186,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="text-text-color hover:text-text-hover transition"
             >
-              <FaWhatsapp  size={24} />
+              <FaWhatsapp size={24} />
             </a>
           </motion.div>
         </div>
@@ -196,7 +205,7 @@ export default function Home() {
           >
             <h1>Hi there 👋, I'm</h1>
             <span
-              ref={typedRef}
+              ref={desktopTypedRef}
               className="typer"
               style={{ color: "var(--color-text-color)" }}
             ></span>
@@ -292,14 +301,14 @@ export default function Home() {
               >
                 <FaInstagram size={24} />
               </a>
-               <a
-              href="https://wa.me/2347061366051"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-text-color hover:text-text-hover transition"
-            >
-              <FaWhatsapp  size={24} />
-            </a>
+              <a
+                href="https://wa.me/2347061366051"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-text-color hover:text-text-hover transition"
+              >
+                <FaWhatsapp size={24} />
+              </a>
             </motion.div>
           </div>
         </div>

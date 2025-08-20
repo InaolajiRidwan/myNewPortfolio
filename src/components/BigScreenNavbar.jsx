@@ -9,6 +9,7 @@ import { BiHomeAlt } from "react-icons/bi";
 import { FaFolderOpen, FaWrench } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaUser } from "react-icons/fa";
+import { AiOutlineFileText } from "react-icons/ai";
 
 // Component for displaying a vertical navbar on large screens
 export default function BigScreenNavbar() {
@@ -18,7 +19,7 @@ export default function BigScreenNavbar() {
   // Define navigation items with route path, icon, and label
   const navItems = [
     { to: "/", icon: <BiHomeAlt size={28} />, label: "Home" },
-    { to: "/resume", icon: <FaUser size={28} />, label: "Resume" },
+    { to: "/resume", icon: <AiOutlineFileText size={28} />, label: "Resume" },
     { to: "/projects", icon: <FaFolderOpen size={28} />, label: "Projects" },
     { to: "/contact", icon: <HiOutlineMail size={28} />, label: "Contact" },
   ];
