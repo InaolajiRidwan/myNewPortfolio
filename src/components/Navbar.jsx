@@ -7,6 +7,7 @@ import { FaFolderOpen, FaWrench } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaUser } from "react-icons/fa";
 import { AiOutlineFileText } from "react-icons/ai";
+import { FaCog } from "react-icons/fa";
 
 
 export default function Navbar() {
@@ -125,6 +126,21 @@ export default function Navbar() {
             >
               <HiOutlineMail size={15} />
               <span>Contact</span>
+            </motion.div>
+          </Link>
+
+
+            <Link onClick={toggleMenu} to="/services" className="hover:text-gray-300">
+            <motion.div
+              initial={{ x: -500 }}
+              animate={{ x: 0 }}
+              whileHover={{ y: -8 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ delay: 0.3, duration: 0.5, ease: "easeOut" }}
+              className="flex items-center gap-2"
+            >
+              <FaCog  size={15} />
+              <span>Services</span>
             </motion.div>
           </Link>
         </motion.section>

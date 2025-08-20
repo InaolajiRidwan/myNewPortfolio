@@ -10,6 +10,7 @@ import Resume from "./pages/Resume";
 import Experience from "./components/resumeComponents/Experience";
 import Education from "./components/resumeComponents/Education";
 import Skills from "./components/resumeComponents/Skills";
+import Services from "./pages/Services";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="education" element={<Education />} />
             <Route path="skills" element={<Skills />} />
           </Route>
+          <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

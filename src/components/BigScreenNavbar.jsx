@@ -10,6 +10,7 @@ import { FaFolderOpen, FaWrench } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaUser } from "react-icons/fa";
 import { AiOutlineFileText } from "react-icons/ai";
+import { FaCog } from "react-icons/fa";
 
 // Component for displaying a vertical navbar on large screens
 export default function BigScreenNavbar() {
@@ -22,6 +23,7 @@ export default function BigScreenNavbar() {
     { to: "/resume", icon: <AiOutlineFileText size={28} />, label: "Resume" },
     { to: "/projects", icon: <FaFolderOpen size={28} />, label: "Projects" },
     { to: "/contact", icon: <HiOutlineMail size={28} />, label: "Contact" },
+    { to: "/services", icon: <FaCog size={28} /> },
   ];
 
   return (
