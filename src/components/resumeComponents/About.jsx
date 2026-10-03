@@ -30,13 +30,13 @@ export default function About() {
       >
         <p className="text-center lg:text-start text-md">
           I'm{" "}
-          <span className="text-text-color font-semibold ">
-            Inaolaji Ridwan
-          </span>
-          , a Frontend Software Engineer passionate about crafting interactive
-          and accessible web experiences with clean code and modern frameworks.
-          With a strong focus on performance and design, I aim to build
-          user-friendly, visually appealing, and scalable applications.
+          <span className="text-text-color font-semibold">Inaolaji Ridwan</span>
+          , a Full-Stack Software Engineer with a strong focus on frontend
+          development. I build modern, scalable, and user-focused web
+          applications using JavaScript, React, Next.js, Node.js, and
+          Express.js. I combine thoughtful UI/UX, clean architecture, REST API
+          integration, and reliable backend functionality to create
+          high-performance digital experiences.
         </p>
       </motion.div>
 

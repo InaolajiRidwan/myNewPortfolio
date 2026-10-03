@@ -29,12 +29,15 @@ export default function Experience() {
         transition={{ delay: 0.2, duration: 1 }}
       >
         <p className="text-center lg:text-start text-md">
-          I have gained hands-on experience working on diverse projects, both
-          independently and in collaborative team settings. My background spans
-          frontend development, product design, and video editing, giving me
-          a well-rounded perspective on creative and technical problem-solving.
-          I specialize in leveraging modern web technologies to build scalable,
-          efficient, and user-friendly applications.
+          I have gained hands-on experience delivering diverse software
+          projects, both independently and as part of collaborative development
+          teams. My experience spans full-stack web development, frontend
+          engineering, product design, and video editing, giving me a
+          well-rounded approach to both technical and creative problem-solving.
+          I leverage modern web technologies to build scalable,
+          high-performance, and user-focused applications, with a strong
+          emphasis on clean architecture, maintainability, responsive design,
+          and seamless user experiences.
         </p>
       </motion.div>
 
@@ -52,7 +55,7 @@ export default function Experience() {
           </div>
           <div className="flex justify-between sm:justify-start sm:gap-6 text-sm sm:text-base md:text-lg">
             <p className="text-gray-600">Experience</p>
-            <p className="font-momo italic">2+ years</p>
+            <p className="font-momo italic">4+ years</p>
           </div>
           <div className="flex justify-between sm:justify-start sm:gap-6 text-sm sm:text-base md:text-lg">
             <p className="text-gray-600">Freelance</p>
@@ -71,8 +74,8 @@ export default function Experience() {
             <p className="font-momo italic">Ibadan, Nigeria</p>
           </div>
           <div className="flex justify-between sm:justify-start sm:gap-6 text-sm sm:text-base md:text-lg">
-            <p className="text-gray-600">Education</p>
-            <p className="font-momo italic">Frontend Engineering</p>
+            <p className="text-gray-600">Specialization</p>
+            <p className="font-momo italic text-sm">Full-Stack Software Engineering</p>
           </div>
           <div className="flex justify-between sm:justify-start sm:gap-6 text-sm sm:text-base md:text-lg">
             <p className="text-gray-600">Languages</p>

@@ -82,9 +82,16 @@ export default function Home() {
             className="font-mono leading-relaxed"
           >
             A{" "}
-            <span className="text-text-color">Frontend Software Engineer</span>{" "}
-            passionate about crafting interactive, user-focused web applications
-            with clean code, modern frameworks, and beautiful design.
+            <span className="text-text-color">
+              Full-Stack Software Engineer
+            </span>{" "}
+            passionate about building interactive, user-focused web applications
+            with{" "}
+            <strong>JavaScript, React, Next.js, Node.js, and Express.js</strong>
+            . I build clean, scalable, and responsive applications, from
+            intuitive frontend experiences to reliable backend services and REST
+            API integrations, turning ideas into practical digital products with
+            modern technologies and thoughtful design.
           </motion.p>
 
           {/* Profile picture */}
@@ -218,12 +225,18 @@ export default function Home() {
             transition={{ delay: 0.7, duration: 5 }}
             className="text-center font-mono text-lg leading-relaxed"
           >
-            A{" "}
-            <span className="text-text-color text-2xl">
-              Frontend Software Engineer
+              A{" "}
+            <span className="text-text-color">
+              Full-Stack Software Engineer
             </span>{" "}
-            passionate about crafting interactive, user-focused web applications
-            with clean code, modern frameworks, and beautiful design.
+            passionate about building interactive, user-focused web applications
+            with{" "}
+            <strong>JavaScript, React, Next.js, Node.js, and Express.js</strong>
+            . I build clean, scalable, and responsive applications, from
+            intuitive frontend experiences to reliable backend services and REST
+            API integrations, turning ideas into practical digital products with
+            modern technologies and thoughtful design.
+       
           </motion.p>
 
           {/* CTA Buttons */}

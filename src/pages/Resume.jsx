@@ -15,7 +15,7 @@ export default function Resume() {
   return (
     <section className="p-5 lg:p-25 h-screen overflow-y-auto">
       {/* Heading (sticky) */}
-      <div className="mb-10 bg-white dark:bg-black z-10 pb-5">
+      <div className="mb-10  dark:bg-black z-10 pb-5">
         <motion.h2
           className="text-3xl md:text-4xl font-bold text-text-color underline"
           initial={{ opacity: 0, y: 30 }}
