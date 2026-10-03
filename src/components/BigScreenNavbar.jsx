@@ -22,8 +22,8 @@ export default function BigScreenNavbar() {
     { to: "/", icon: <BiHomeAlt size={28} />, label: "Home" },
     { to: "/resume", icon: <AiOutlineFileText size={28} />, label: "Resume" },
     { to: "/projects", icon: <FaFolderOpen size={28} />, label: "Projects" },
-    { to: "/contact", icon: <HiOutlineMail size={28} />, label: "Contact" },
-    { to: "/services", icon: <FaCog size={28} /> },
+    // { to: "/contact", icon: <HiOutlineMail size={28} />, label: "Contact" },
+    { to: "/services", icon: <FaCog size={28} />, label: "services" },
   ];
 
   return (

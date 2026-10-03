@@ -115,7 +115,7 @@ export default function Navbar() {
             </motion.div>
           </Link>
 
-          <Link onClick={toggleMenu} to="/contact" className="hover:text-gray-300">
+          {/* <Link onClick={toggleMenu} to="/contact" className="hover:text-gray-300">
             <motion.div
               initial={{ x: 500 }}
               animate={{ x: 0 }}
@@ -127,7 +127,7 @@ export default function Navbar() {
               <HiOutlineMail size={15} />
               <span>Contact</span>
             </motion.div>
-          </Link>
+          </Link> */}
 
 
             <Link onClick={toggleMenu} to="/services" className="hover:text-gray-300">
